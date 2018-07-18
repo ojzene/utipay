@@ -1,0 +1,13 @@
+{
+    "name": "kanmit/utipay",
+    "description": "This is multi-payment platform apis using paystack, rave and other pay gateways for making payments",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ojzene",
+            "email": "ttconfirmed@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
