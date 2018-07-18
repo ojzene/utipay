@@ -40,23 +40,6 @@ class Auth
             $this->paygateway_url = null;
         }
 
-
-        $this->flutterwave_staging_url = 'http://staging1flutterwave.co:8080/pwc/rest/';
-        $this->flutterwave_live_url = 'https://prod1flutterwave.co:8181/';
-        $this->airtel_url = 'http://172.24.91.34:4672/';
-        $this->new_airtel_url = 'http://172.24.2.68:9900/';
-        $this->our_live_url = 'http://40.68.250.245:4672/manager/index.php/api/v1';
-
-        $this->moneywave_staging_url = 'http://moneywave.herokuapp.com/';
-        $this->moneywave_staging_apiKey = "ts_4J2AIL4C0RCQ8H4RBN6O";
-        $this->moneywave_staging_secret = "ts_VR0H80YMVFCPP5PYGK0713N0AIHCWE";
-
-        $this->moneywave_live_url = 'https://live.moneywaveapi.co/';
-        $this->moneywave_live_apiKey = "lv_4EZBZE6SYF9N6X464BL9";
-        $this->moneywave_live_secret = "lv_1CF9S43PWAZREOS4SPMHUMVRAQO4RZ";
-
-        $this->senderName = "Aledinnano"; // same as username
-        $this->walletPassword = "Aledin2016"; // same as lock
         $this->currency = "NGN";  // naira
         $this->country = "NG";  // naira
 
