@@ -26,16 +26,15 @@ class Auth
         $this->output_format = "json"; // json or xml
         // $this->output_app_format = "application/json"; // json or xml
 
-        $this->flutterwave_staging_apiKey = "tk_CDj9Hv3MtIOG8ANkXqFP";
-        $this->flutterwave_staging_merchantKey = "tk_ESxbTkBWig";
+        $this->flutterwave_staging_apiKey = "";
+        $this->flutterwave_staging_merchantKey = "";
 
-        $this->flutterwave_live_merchantKey = "lk_v6SeG4kbY3";
-        $this->flutterwave_live_apiKey = "lk_dYVE5Haq9pwgyNnJoTbf";
+        $this->flutterwave_live_merchantKey = "";
+        $this->flutterwave_live_apiKey = "";
 
         if($this->paygateway == 'paystack') {
             $this->paygateway_url = 'https://api.paystack.co/';
-            $this->paygateway_secret_key = "Bearer sk_live_f0cc898b153fd65d27183be38c04084ad1eaed9c";
-            // $this->paygateway_secret_key = "Bearer your_live_secret_key_here";
+            $this->paygateway_secret_key = "Bearer your_live_secret_key_here";
         }
         else {
             $this->paygateway_url = null;

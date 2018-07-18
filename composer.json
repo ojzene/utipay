@@ -2,6 +2,7 @@
     "name": "kanmit/utipay",
     "description": "This is multi-payment platform apis using paystack, rave and other pay gateways for making payments",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "ojzene",
@@ -9,5 +10,16 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "slim/slim": "^3.0",
+        "palanik/corsslim": "dev-slim3",
+        "guzzlehttp/guzzle": "~6.0",
+        "gabordemooij/redbean": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src",
+            "Test\\": "tests"
+        }
+    }
 }
