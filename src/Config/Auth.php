@@ -22,7 +22,6 @@ class Auth
 
     public function __construct()
     {
-        /****  Aledin details   ****/
         $this->output_format = "json"; // json or xml
         // $this->output_app_format = "application/json"; // json or xml
 
