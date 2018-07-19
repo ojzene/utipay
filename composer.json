@@ -1,6 +1,7 @@
 {
     "name": "kanmit/utipay",
     "description": "This is multi-payment platform apis using paystack, rave and other pay gateways for making payments",
+    "keywords": ["php", "php payments", "payment api", "slim", "php api"],
     "type": "library",
     "license": "MIT",
     "authors": [
