@@ -113,16 +113,4 @@
             $statusHandler = [ 'success' => $status, 'code' => $code, 'data' => $status_code.$format];
             return $statusHandler;
         }
-
-        public function getSmsConfig() {
-            $smsarr = [
-                "sms_host" => '196.46.244.58',
-                "sms_port" => 31110,
-                "sms_username" => "2343159ad",
-                "sms_password" => "P9dbv/xgk",
-                "sms_header" => "SmartLoan"
-            ];
-            return $smsarr;
-        }
-
     }
